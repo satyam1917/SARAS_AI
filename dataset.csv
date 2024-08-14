@@ -1,0 +1,404 @@
+alpaca_prompt = """
+### Input:
+Level 1
+
+### Response:
+1. What is 2 + 3?
+2. What color is the sky during a clear day?
+3. How many legs does a dog have?
+4. What is the first letter of the alphabet?
+5. What is 5 - 2?
+6. How many fingers do you have on one hand?
+7. If you have 2 apples and you eat one, how many are left?
+8. What sound does a cow make?
+9. How many days are there in a week?
+10. What is the opposite of "up"?
+"""
+
+alpaca_prompt = """
+### Input:
+Level 2
+
+### Response:
+1. If x + 5 = 10, what is x?
+2. A train leaves at 9 AM and arrives at 12 PM. How long is the journey?
+3. If you have 30 candies to share equally among 6 friends, how many candies does each friend get?
+4. What is the area of a rectangle with length 5 cm and width 3 cm?
+5. If it is 25 degrees Celsius, is it hot or cold?
+6. How many minutes are there in an hour?
+7. What is the next number in the sequence: 2, 4, 6, 8, ...?
+8. If a book costs $5 and you have $20, how many books can you buy?
+9. How many months are there in a year?
+10. If you walk 3 kilometers per hour, how far will you walk in 2 hours?
+"""
+
+alpaca_prompt = """
+### Input:
+Level 3
+
+### Response:
+1. What is the value of 3x when x = 4?
+2. If a triangle has angles of 90°, 45°, and 45°, what type of triangle is it?
+3. Solve for y: 3y - 7 = 2.
+4. What is the perimeter of a square with side length 8 cm?
+5. How many hours are in 2.5 days?
+6. If a car travels 60 kilometers in 1 hour, how far will it travel in 3.5 hours?
+7. What is the sum of the first five prime numbers?
+8. Convert 2500 millimeters to meters.
+9. What is the square root of 81?
+10. What is 15% of 200?
+"""
+
+alpaca_prompt = """
+### Input:
+Level 4
+
+### Response:
+1. Solve for x: 2x^2 - 8x + 6 = 0.
+2. A right triangle has one leg of 6 cm and a hypotenuse of 10 cm. What is the length of the other leg?
+3. What is the derivative of f(x) = 3x^3 - 5x^2 + 2x - 7?
+4. Calculate the area of a circle with a radius of 7 cm.
+5. If a population of bacteria doubles every hour, how many bacteria will there be after 5 hours, starting with 100?
+6. What is the sum of the interior angles of a pentagon?
+7. Simplify the expression: (2x - 3)(x + 4).
+8. Find the value of x in the equation 5^x = 125.
+9. What is the probability of drawing an ace from a standard deck of cards?
+10. Calculate the compound interest on $1000 at a 5% annual rate for 3 years, compounded annually.
+"""
+
+alpaca_prompt = """
+### Input:
+Level 5
+
+### Response:
+1. Solve for x: 3x^3 - 12x^2 + 9x - 36 = 0.
+2. Calculate the integral of f(x) = 2x^2 - 3x + 1.
+3. A matrix A is given by [[1, 2], [3, 4]]. Find the determinant of A.
+4. If sin(θ) = 3/5 and θ is in the first quadrant, find cos(θ).
+5. Prove that the sum of the first n positive integers is n(n + 1)/2.
+6. Find the roots of the quadratic equation: x^2 - 6x + 9 = 0.
+7. Calculate the eigenvalues of the matrix [[2, 1], [1, 2]].
+8. Solve the system of equations: 2x + y = 10 and 3x - y = 5.
+9. A particle moves along the curve y = x^2 + 2x + 1. Find the velocity of the particle at x = 1.
+10. If $1000 is invested at an annual interest rate of 4% compounded quarterly, what will be the value after 5 years?
+"""
+alpaca_prompt = """
+### Input:
+Level 1
+
+### Response:
+1. What is 1 + 1?
+2. What is the color of an apple?
+3. How many legs does a spider have?
+4. What is the shape of the earth?
+5. How many letters are in the word "cat"?
+6. What is the opposite of "night"?
+7. What sound does a duck make?
+8. How many sides does a triangle have?
+9. What is the first month of the year?
+10. If you have 2 pencils and you give one away, how many do you have left?
+"""
+alpaca_prompt = """
+### Input:
+Level 2
+
+### Response:
+1. If you have 15 apples and you give 7 to your friend, how many are left?
+2. What is the capital city of France?
+3. What is the result of 3 × 4?
+4. If a pizza is cut into 8 slices and you eat 3, how many slices are left?
+5. How many hours are there in a day?
+6. What is 50 divided by 5?
+7. What is the name of the tallest mountain in the world?
+8. How many planets are there in our solar system?
+9. If today is Monday, what day will it be tomorrow?
+10. What is the currency used in the United States?
+"""
+alpaca_prompt = """
+### Input:
+Level 3
+
+### Response:
+1. Solve for x: x + 7 = 15.
+2. What is the capital of Japan?
+3. If a car travels 150 kilometers in 3 hours, what is its speed in kilometers per hour?
+4. What is the area of a triangle with base 6 cm and height 4 cm?
+5. What is the result of 5^2?
+6. How many edges does a cube have?
+7. Convert 2.5 liters to milliliters.
+8. What is the smallest prime number?
+9. If a train travels at 60 km/h, how far will it travel in 45 minutes?
+10. What is the product of the first 5 positive integers?
+"""
+alpaca_prompt = """
+### Input:
+Level 4
+
+### Response:
+1. Solve for y: 2y + 3 = 9.
+2. If the circumference of a circle is 31.4 cm, what is its diameter? (Use π = 3.14)
+3. What is the sum of the first 10 positive integers?
+4. If a car’s fuel efficiency is 20 miles per gallon and it travels 240 miles, how many gallons of fuel were used?
+5. What is the derivative of f(x) = 2x^2 + 3x + 1?
+6. Calculate the simple interest on $500 at a rate of 5% per annum for 2 years.
+7. Simplify: (x + 2)(x - 2).
+8. What is the hypotenuse of a right triangle with legs of 6 cm and 8 cm?
+9. Convert 3 hours and 15 minutes to minutes.
+10. Solve the equation: 3x - 2y = 6, when y = 2.
+"""
+alpaca_prompt = """
+### Input:
+Level 5
+
+### Response:
+1. Solve the quadratic equation: x^2 - 4x + 4 = 0.
+2. Find the derivative of f(x) = x^3 - 6x^2 + 9x - 4.
+3. If the matrix A = [[1, 2], [3, 4]], find the inverse of A.
+4. Calculate the area under the curve y = 4x - x^2 from x = 0 to x = 2.
+5. Solve the system of equations: 2x + 3y = 7 and 4x - y = 5.
+6. If a population of 1000 bacteria doubles every 2 hours, how many bacteria will there be after 10 hours?
+7. What is the integral of f(x) = 3x^2 - 2x + 1?
+8. Find the roots of the cubic equation x^3 - 6x^2 + 11x - 6 = 0.
+9. Prove that the sum of the squares of any two sides of a right triangle is equal to the square of the hypotenuse.
+10. Calculate the future value of an investment of $2000 at an annual interest rate of 6%, compounded monthly for 3 years.
+"""
+alpaca_prompt = """
+### Input:
+Level 1
+
+### Response:
+1. What is 5 - 3?
+2. What color is the sun?
+3. How many wheels does a bicycle have?
+4. What letter comes after 'B' in the alphabet?
+5. If you have 3 oranges and give 1 away, how many do you have left?
+6. What animal says "meow"?
+7. How many days are there in a weekend?
+8. What shape has four equal sides?
+9. What is the opposite of "big"?
+10. What do you use to brush your teeth?
+"""
+alpaca_prompt = """
+### Input:
+Level 2
+
+### Response:
+1. What is 8 + 7?
+2. How many minutes are there in half an hour?
+3. If you have $15 and spend $7, how much money do you have left?
+4. How many continents are there in the world?
+5. What is the square of 3?
+6. How many sides does a hexagon have?
+7. If a bus arrives every 20 minutes, how many buses will arrive in 1 hour?
+8. What is the freezing point of water in degrees Celsius?
+9. Convert 200 centimeters to meters.
+10. What is the capital of Italy?
+"""
+alpaca_prompt = """
+### Input:
+Level 3
+
+### Response:
+1. Solve for x: 2x - 4 = 8.
+2. What is the capital city of Canada?
+3. What is the area of a square with a side length of 5 cm?
+4. What is the cube root of 27?
+5. If a train travels 240 km in 4 hours, what is its average speed?
+6. How many degrees are there in a full circle?
+7. What is the value of 7 × 6?
+8. Convert 1.5 kilometers to meters.
+9. What is the next prime number after 7?
+10. How many vertices does a pentagon have?
+"""
+alpaca_prompt = """
+### Input:
+Level 4
+
+### Response:
+1. Solve for x: x^2 - 16 = 0.
+2. If the sum of the interior angles of a polygon is 720 degrees, how many sides does the polygon have?
+3. What is the derivative of f(x) = 4x^3 - 3x^2 + 2x - 1?
+4. Calculate the area of a triangle with a base of 10 cm and a height of 12 cm.
+5. How many liters are there in 500 milliliters?
+6. Solve the inequality: 5x - 7 > 8.
+7. What is the value of sin(30°)?
+8. Find the least common multiple of 12 and 18.
+9. Simplify the expression: 2(x + 5) - 3(x - 4).
+10. What is the perimeter of a rectangle with length 15 cm and width 8 cm?
+"""
+alpaca_prompt = """
+### Input:
+Level 5
+
+### Response:
+1. Solve the equation: x^3 - 6x^2 + 11x - 6 = 0.
+2. Calculate the definite integral of f(x) = 3x^2 - 2x + 1 from x = 0 to x = 2.
+3. Find the eigenvalues of the matrix [[2, 3], [3, 2]].
+4. If cos(θ) = 4/5 and θ is in the first quadrant, find sin(θ).
+5. Prove the Pythagorean theorem.
+6. Solve the differential equation: dy/dx = 3x^2 - 2x.
+7. What is the determinant of the matrix [[1, 2, 3], [4, 5, 6], [7, 8, 9]]?
+8. Find the maximum value of the function f(x) = -2x^2 + 4x + 1.
+9. If $5000 is invested at an annual interest rate of 4% compounded quarterly, what will be the value after 10 years?
+10. Solve the system of equations: 3x + 4y = 10 and 5x - y = 7.
+"""
+alpaca_prompt = """
+### Input:
+Level 1
+
+### Response:
+1. What is 10 - 4?
+2. What color is the sky on a clear day?
+3. How many fingers do you have on one hand?
+4. What letter comes after 'M' in the alphabet?
+5. What shape is a football?
+6. How many wheels does a car have?
+7. What is the opposite of "short"?
+8. What animal is known as "man's best friend"?
+9. What is the first day of the week?
+10. If you have 5 apples and give 2 away, how many are left?
+"""
+alpaca_prompt = """
+### Input:
+Level 2
+
+### Response:
+1. What is 9 × 3?
+2. How many days are there in February in a leap year?
+3. If you have $25 and spend $10, how much money do you have left?
+4. What is the largest ocean on Earth?
+5. What is the square of 4?
+6. How many sides does an octagon have?
+7. If a movie starts at 7 PM and ends at 9:30 PM, how long is the movie?
+8. What is the boiling point of water in degrees Celsius?
+9. Convert 1.5 meters to centimeters.
+10. What is the capital of Australia?
+"""
+alpaca_prompt = """
+### Input:
+Level 3
+
+### Response:
+1. Solve for x: 3x - 5 = 10.
+2. What is the capital city of Germany?
+3. What is the area of a rectangle with a length of 7 cm and a width of 4 cm?
+4. What is the cube of 5?
+5. If a car travels 300 kilometers in 5 hours, what is its average speed?
+6. How many degrees are in a right angle?
+7. What is the value of 8 × 7?
+8. Convert 0.75 kilometers to meters.
+9. What is the next prime number after 11?
+10. How many faces does a cube have?
+"""
+alpaca_prompt = """
+### Input:
+Level 4
+
+### Response:
+1. Solve for x: x^2 - 9 = 0.
+2. If the sum of the interior angles of a polygon is 1080 degrees, how many sides does the polygon have?
+3. What is the derivative of f(x) = 5x^3 - 4x^2 + 3x - 2?
+4. Calculate the area of a circle with a radius of 7 cm. (Use π = 3.14)
+5. How many milliliters are there in 2 liters?
+6. Solve the inequality: 4x + 3 > 11.
+7. What is the value of cos(60°)?
+8. Find the greatest common divisor of 24 and 36.
+9. Simplify the expression: 3(x + 4) - 2(x - 3).
+10. What is the volume of a cube with a side length of 5 cm?
+"""
+alpaca_prompt = """
+### Input:
+Level 5
+
+### Response:
+1. Solve the equation: x^2 - 5x + 6 = 0.
+2. Calculate the definite integral of f(x) = 2x^2 - 3x + 4 from x = 1 to x = 3.
+3. Find the eigenvectors of the matrix [[4, 1], [2, 3]].
+4. If tan(θ) = 3/4 and θ is in the first quadrant, find sec(θ).
+5. Prove that the sum of the angles in any triangle is 180 degrees.
+6. Solve the differential equation: dy/dx = 4x - 2.
+7. What is the determinant of the matrix [[2, 5, 1], [6, 3, 4], [1, 2, 8]]?
+8. Find the minimum value of the function f(x) = x^2 - 4x + 3.
+9. If $10000 is invested at an annual interest rate of 5% compounded annually, what will be the value after 5 years?
+10. Solve the system of equations: 2x - 3y = 4 and 4x + y = 7.
+"""
+alpaca_prompt = """
+### Input:
+Level 1
+
+### Response:
+1. What is 7 + 2?
+2. What color are bananas?
+3. How many legs does a spider have?
+4. What letter comes after 'E' in the alphabet?
+5. How many days are there in a week?
+6. What is the shape of a basketball?
+7. What sound does a cow make?
+8. How many colors are there in a rainbow?
+9. What is the opposite of "slow"?
+10. If you have 10 balloons and 3 pop, how many are left?
+"""
+alpaca_prompt = """
+### Input:
+Level 2
+
+### Response:
+1. What is 12 - 5?
+2. How many seconds are there in a minute?
+3. If you have $30 and spend $18, how much money do you have left?
+4. What is the tallest mountain in the world?
+5. What is the square of 5?
+6. How many sides does a decagon have?
+7. If a pizza is cut into 8 slices and you eat 3, how many slices are left?
+8. What temperature does water boil at in Fahrenheit?
+9. Convert 3000 milliliters to liters.
+10. What is the capital of France?
+"""
+alpaca_prompt = """
+### Input:
+Level 3
+
+### Response:
+1. Solve for x: 4x + 7 = 19.
+2. What is the capital city of Japan?
+3. What is the perimeter of a rectangle with length 8 cm and width 5 cm?
+4. What is the cube root of 64?
+5. If a plane travels 600 miles in 2 hours, what is its average speed?
+6. How many degrees are there in an equilateral triangle?
+7. What is the value of 9 × 8?
+8. Convert 2.5 kilometers to meters.
+9. What is the next prime number after 13?
+10. How many edges does a rectangular prism have?
+"""
+alpaca_prompt = """
+### Input:
+Level 4
+
+### Response:
+1. Solve for x: 3x^2 - 12 = 0.
+2. If the exterior angle of a regular polygon is 45 degrees, how many sides does the polygon have?
+3. What is the derivative of f(x) = 6x^3 - 5x^2 + 4x - 3?
+4. Calculate the circumference of a circle with a diameter of 14 cm. (Use π = 3.14)
+5. How many grams are there in 5 kilograms?
+6. Solve the inequality: 7x - 9 ≤ 20.
+7. What is the value of tan(45°)?
+8. Find the least common multiple of 15 and 20.
+9. Simplify the expression: 4(x - 2) + 3(2x + 1).
+10. What is the surface area of a cube with a side length of 4 cm?
+"""
+alpaca_prompt = """
+### Input:
+Level 5
+
+### Response:
+1. Solve the equation: x^2 + 4x - 12 = 0.
+2. Calculate the definite integral of f(x) = x^3 - 2x^2 + x from x = 0 to x = 2.
+3. Find the eigenvalues and eigenvectors of the matrix [[1, 2], [2, 1]].
+4. If sin(θ) = 3/5 and θ is in the second quadrant, find cos(θ).
+5. Prove that the diagonals of a rhombus are perpendicular.
+6. Solve the differential equation: dy/dx = 2xy.
+7. What is the determinant of the matrix [[3, 0, 2], [2, 1, 4], [1, 2, 3]]?
+8. Find the maximum value of the function f(x) = -x^2 + 6x - 5.
+9. If $20000 is invested at an annual interest rate of 3% compounded semi-annually, what will be the value after 8 years?
+10. Solve the system of equations: x + 2y = 3 and 3x - y = 7.
+"""
